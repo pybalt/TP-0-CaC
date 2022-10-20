@@ -1,2 +1,2 @@
-# TP-0-CaC
-This is the TP N0 of the Codo a Codo 4.0 course.
+# First Project
+This repo contains the first project of the Codo a Codo 4.0 course. We are going to do a computers store.
