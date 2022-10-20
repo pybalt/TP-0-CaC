@@ -1,0 +1,376 @@
+*{
+  box-sizing: border-box;  
+}
+
+body{
+    display: block;
+    width: 100%;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.main-header{
+    padding: 0 20px;
+}
+
+.main-header__title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: black;
+}
+
+.main-nav{
+    display: none;
+}
+
+.main-header__container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.icon-menu{
+    font-size: 1.5rem;
+    border: 1px solid black ;
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+.main-header__btn{
+    display: block;
+    padding: 10px 25px;
+    color: black;
+    border: 1px solid black ;
+    text-decoration: none;
+}
+
+.main-header__input{
+    display: block;
+    padding: 10px;
+
+}
+
+/* Slider */
+
+.container-slider{
+    margin: 30px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    width: 1000%;
+    height: 120px;
+    margin-left: -100%;
+}
+
+.slider__section{
+    width: 100%;
+    height: 120px;
+}
+
+@media screen and (min-width: 360px) {
+    .slider {
+    height: 120px;
+    }       
+}
+@media screen and (min-width: 360px) {
+        .slider__section {
+        height: 120px;
+        }    
+}
+@media screen and (min-width: 760px) {
+    .slider {
+    height: 250px;
+    }
+}    
+    @media screen and (min-width: 760px) {
+        .slider__section {
+        height: 250px;
+        }    
+}
+        @media screen and (min-width: 1100px) {
+            .slider {
+            height: 350px;
+            }
+}            
+            @media screen and (min-width: 1100px) {
+                .slider__section {
+                height: 350px;
+                }
+}                             
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn:hover{
+    background: #fff;
+}
+
+.slider__btn--left{
+    left: 10px;
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+
+/*Cards*/
+
+.container-cards{
+    margin: 50px 50px;
+    position: relative;
+}
+
+.cards{
+    display: flex;
+    width: 98%;
+}
+
+@media screen and (min-width: 360px) {
+    .container-cards {
+    width: 400px;
+    margin: 10px 0;
+    }
+}     
+ @media screen and (min-width: 400px) {
+    .cards {
+    width: 410px;
+    margin: 10px 0;
+    }
+} 
+
+@media screen and (min-width: 760px) {
+    .cards {
+    width: 781px;
+    margin: 10px 0;
+    }
+}           
+@media screen and (min-width: 760px) {
+    .container-cards {
+    width: 781px;
+    margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .cards {
+    width: 825px;
+    margin: 10px 0;
+    }
+}           
+@media screen and (min-width: 820px) {
+    .container-cards {
+    width: 825px;
+    margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container-cards {
+    width: 1035px;   
+ }
+}   
+@media screen and (min-width: 1000px) {
+    .cards {
+    width: 1035px;   
+ }
+} 
+
+@media screen and (min-width: 1000px) {
+    .container-cards {
+    width: 1292px;   
+ }
+}   
+@media screen and (min-width: 1280px) {
+    .cards {
+    width: 1292px;   
+ }
+} 
+
+@media screen and (min-width: 1366px) {
+    .container-cards {
+    width: 1360px;   
+    box-sizing: border-box;
+ }
+}   
+@media screen and (min-width: 1366px) {
+    .cards {
+    width: 1360px;   
+ }
+} 
+.cards__section{
+    padding-right: 10px;
+}
+
+.cards__img{
+    display: block;
+    height: 100%;
+}
+
+/*Productos destacados slider*/
+
+.container-destacados{
+    margin: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-destacados a{
+    text-decoration: none;
+
+}
+.title__destacados{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slide-img{
+    height: 350px;
+    position: relative;
+    border-bottom: 1px solid rgb(184, 183, 183);
+
+}
+
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+}
+
+.type a{
+    color: #222222;
+    margin: 5px 0;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+    color: #222222;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.container-button{
+    display: flex;
+}
+
+.button-destacados{
+font-size: 30px;
+}
+
+/*Overlay*/
+
+.overlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(217, 91, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-comprar{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-comprar:hover{
+    color: #fff;
+    background-color: rgb(83, 71, 255);
+    animation: fade-btn 1s;
+}
+
+.overlay{
+    visibility: hidden;
+}
+
+.slide-img:hover .overlay{
+    visibility: visible;
+    animation: fade-overlay 0.8s;
+}
+
+@keyframes fade-overlay{
+    0%{
+        opacity: 0;
+    }
+   100%{
+    opacity: 1;
+   } 
+}
+
+@keyframes fade-btn{
+    0%{
+        opacity: 0;
+    }
+   100%{
+    opacity: 1;
+   } 
+}  
