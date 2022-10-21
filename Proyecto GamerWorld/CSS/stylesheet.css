@@ -85,7 +85,7 @@ img{
     align-items: center;
 }
 .home{
-    transform: translateY(7px);
+    transform: translateY(7px); 
 }
 .logo{
     order: 1;
