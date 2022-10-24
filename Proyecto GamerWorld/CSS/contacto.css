@@ -290,6 +290,7 @@ img{
     font-size: 20px;
     outline: none;
     color: gray;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .form textarea {
