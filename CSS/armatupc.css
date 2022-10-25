@@ -4,12 +4,12 @@
   
   @font-face {
       font-family: Gameria;
-      src: url(/Assets/Fonts/GAMERIA.ttf);
+      src: url(../Assets/Fonts/GAMERIA.ttf);
   }
   
   @font-face {
       font-family:Roboto ;
-      src: url(/Assets/Fonts/Roboto-BoldCondensed.ttf);
+      src: url(../Assets/Fonts/Roboto-BoldCondensed.ttf);
   }
 
   body{
@@ -311,7 +311,7 @@ justify-content: center;
 footer {
     
     margin-top: 50px;
-    background-image: url(/Assets/backround-footer.png);
+    background-image: url(../Assets/backround-footer.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: #d8d8d8;
